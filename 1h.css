@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .mountains {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #8660a5 0%, #8560a8 50%, #8641a7 100%);
+    z-index: -1;
+    pointer-events: none; /* Ensures the background doesn't interfere with content */
+    display: block;
+  }
+  
+  .mountains::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('mountain.svg') repeat-x;
+    animation: floating 10s infinite linear;
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+
+
+  .card{
+
+height: 700px;
+width: 500px;
+border-radius: 16px;
+backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.425); 
+    position: absolute;
+    left: 460px;
+
+border: black solid 1px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #thank-you-card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #c58ec1;
+  }
+  
+  .hidden {
+    display: none;
+  }
+   
+  .back{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 650px;
+    left: 300px;
+    display: inline-block;
+   
+  }
+  

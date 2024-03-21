@@ -1,0 +1,145 @@
+body{
+   background: linear-gradient(
+    to left,
+    rgb(157, 115, 185),
+    rgb(125, 49, 175),
+    rgb(48, 7, 75)
+
+   );
+}
+*{
+    padding: 0;
+    margin: 0;
+ }
+ .one{
+    height: 70px;
+    width: 100%;
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.2); 
+    
+
+ }
+ .home {
+text-decoration: none;
+color: white;
+border-bottom: gray solid 1px;
+position: absolute;
+top: 20px;
+left: 100px;
+
+ }
+ .contactus{
+    text-decoration: none;
+color: white;
+border-bottom: gray solid 1px;
+position: absolute;
+top: 20px;
+left: 200px;
+ }
+ .img{
+    border-radius: 16px;
+ }
+.one1{
+    position: absolute;
+    top: 90px;
+    left: 1100px;
+}
+.one2{
+    position: absolute;
+    top: 90px;
+    left: 750px;
+}
+.one3{
+    position: absolute;
+    top: 90px;
+    left:400px; 
+}
+
+.one4{
+
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+
+.one5{
+    position: absolute;
+    left: 50px;
+    top: 650px;
+}
+
+.one6{
+
+    position: absolute;
+    left: 400px;
+    top: 650px;
+}
+.one7{
+position: absolute;
+top: 650px;
+left:750px ;
+
+}
+ 
+.one8{
+
+    position: absolute;
+    top: 650px;
+    left: 1100px;  
+}
+.one9{
+    position: absolute;
+    left: 50px;
+    top: 1220px;
+}
+.one10{
+
+    position: absolute;
+    left: 400px;
+    top: 1220px;
+}
+
+.one11{
+    position: absolute;
+    left: 750px;
+    top: 1220px;
+}
+.one12{
+
+    position: absolute;
+    left: 1100px;
+    top: 1220px;
+}
+.one13{
+    position: absolute;
+    left: 1100px;
+    top: 1790px;
+
+}
+.one14{
+    position: absolute;
+    left: 50px;
+    top: 1790px;
+ 
+}
+.one15{
+    position: absolute;
+    left: 400px;
+    top: 1790px;
+ 
+    
+}
+
+.one16{
+
+    position: absolute;
+    left: 750px;
+    top: 1790px;
+
+
+}
+.one17{
+    position: absolute;
+    top: 2400px;
+}
